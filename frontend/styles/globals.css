@@ -1,0 +1,23 @@
+/* styles/globals.css */
+
+/* Importing Tailwind CSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom overrides */
+
+/* Modal background overlay */
+.modal-bg {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
+}
+
+/* Modal dialog box */
+.modal {
+  @apply bg-white rounded-lg p-6 shadow-lg w-11/12 max-w-md;
+}
+
+/* Chatbot panel */
+.chatbot-panel {
+  @apply fixed bottom-4 right-4 bg-white shadow-lg rounded-lg p-4 w-80;
+}
